@@ -1,0 +1,32 @@
+{
+  "name": "projekt-test",
+  "version": "1.0.0",
+  "description": "1st grunt project",
+  "main": "index.js",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  },
+  "scripts": {
+    "test": "kodilla-tet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mylosz/projekt-test.git"
+  },
+  "keywords": [
+    "grunt"
+  ],
+  "author": "Milosz Listopad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mylosz/projekt-test/issues"
+  },
+  "homepage": "https://github.com/Mylosz/projekt-test#readme"
+}

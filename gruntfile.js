@@ -26,7 +26,7 @@ module.exports = function(grunt) {
 
     watch: {
         scripts: {
-            files: ['sass/sprint.sass'],
+            files: ['sprint.sass'],
             tasks: ['sass'],
             options: {
                 spawn: false,
@@ -60,5 +60,5 @@ module.exports = function(grunt) {
 
   // Default task(s).
 
-  grunt.registerTask('default', ['sass', 'imagemin', 'browserSync']);
+  grunt.registerTask('default', ['sass', 'imagemin', 'browserSync', 'watch']);
 };
